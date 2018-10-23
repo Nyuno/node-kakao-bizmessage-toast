@@ -22,5 +22,14 @@
   "bugs": {
     "url": "https://github.com/Nyuno/node-kakao-bizmessage-toast/issues"
   },
-  "homepage": "https://github.com/Nyuno/node-kakao-bizmessage-toast#readme"
+  "homepage": "https://github.com/Nyuno/node-kakao-bizmessage-toast#readme",
+  "devDependencies": {
+    "eslint": "^5.7.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "debug": "^4.1.0"
+  }
 }
