@@ -4,7 +4,10 @@
   "description": "Kakao bizmessage client for toast provider",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "lint": "eslint lib index.js",
+    "test": "jest",
+    "test:coverage": "jest --coverage --coverageReporters=text-lcov",
+    "coveralls": "jest --coverage && cat ./tests/coverage/lcov.info | coveralls"
   },
   "repository": {
     "type": "git",
@@ -24,6 +27,7 @@
   },
   "homepage": "https://github.com/Nyuno/node-kakao-bizmessage-toast#readme",
   "devDependencies": {
+    "coveralls": "^3.0.2",
     "eslint": "^5.7.0",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.14.0",
