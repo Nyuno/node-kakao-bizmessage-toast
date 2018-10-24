@@ -1,6 +1,6 @@
 {
   "name": "kakao-bizmessage-toast",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Kakao bizmessage client for toast provider",
   "main": "index.js",
   "scripts": {
