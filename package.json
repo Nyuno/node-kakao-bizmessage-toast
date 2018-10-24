@@ -6,7 +6,7 @@
   "scripts": {
     "lint": "eslint lib index.js",
     "test": "jest",
-    "test:coverage": "jest --coverage --coverageReporters=text-lcov",
+    "test:coverage": "jest --coverage",
     "coveralls": "yarn test:coverage && cat ./coverage/lcov.info | coveralls"
   },
   "repository": {
