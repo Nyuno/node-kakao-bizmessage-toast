@@ -42,7 +42,20 @@ const client = new ToastKakaoBizmessage({
 ```
 
 ```js
-// 일반 알림톡 전송
+// 알림톡 치환 전송
+const templateCode = 'testTemplateCode';
+const recipientList = [{
+  recipientNo: '01012345678',
+  templateParameter: {
+    userName: '현호',
+  },
+}];
+
+client.sendMessages(templateCode, recipientList);
+```
+
+```js
+// 알림톡 전문 전송
 const templateCode = 'testTemplateCode';
 const recipientList = [{
   recipientNo: '01012345678',
